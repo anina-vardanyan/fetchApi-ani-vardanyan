@@ -1,0 +1,202 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+ max-width: 1200px;
+ margin: 0 auto;
+  background-color: aliceblue;
+  
+}
+header{
+display: flex;
+align-items: center;
+color: aliceblue;
+background-color:rgb(117, 134, 139);
+width: 100%;
+height: 40px;
+padding-left: 200px;
+}
+
+.logo{
+width: 20px;
+display: flex;
+height: 20px;
+border-radius: 50%;
+margin-right: 10px;
+
+}
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: column;
+  margin:  10px   30px   0 200px ;
+  height: 100%;
+
+  
+ 
+}
+.users  {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+ border-style:groove;
+ border-color: rgb(245, 246, 248);
+ border-radius: 5px; 
+  width: 800px;
+  height: 150px;
+}
+
+.btn_logo{
+  display: flex;
+}
+.btn{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(216, 219, 219);
+  text-transform: uppercase;
+  width: 15%;
+  height: 25px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.input{
+  display: flex;
+  width: 85%;
+  height: 25px;
+  
+}
+.text{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: rgb(58, 127, 231);
+  border-radius: 5px; 
+  width: 800px;
+  height: 150px;
+  color: white;
+  margin-top: 10px;
+}
+footer{
+  display: flex;
+  align-items: center;
+  padding-left: 40%;
+  order: 1;
+  margin-top: 30%;
+  background-color: rgb(216, 219, 219);
+  width: 100%;
+  height: 30px;
+
+}
+#profil{
+  margin-top: 20px;
+  display: none;
+  width: 800px;
+  height: 300px;
+  padding: 10px;
+  border-style: solid;
+  border-color: rgb(151, 151, 151);
+  
+  
+}
+.img{
+  margin-right: 10px;
+  width: 150px;
+  height: 180px;
+ 
+}
+
+.search-image{
+  width: 150px;
+  height: 180px;
+}
+
+.profil{
+  margin-top: 10px;
+  width: 150px;
+  height: 30px;
+  background-color: rgba(112, 111, 109, 0.76);
+  color: white;
+  text-align: center;
+
+}
+
+.box div{
+  display: flex;
+  width: 600px;
+  height: 40px;
+  border-radius: 5px;
+  border-style:groove;
+  border-color: rgb(245, 246, 248);
+  align-items: center;
+   
+}
+
+.profil_box{
+  display: flex;
+  justify-content:space-around;
+  width: 600px;
+  align-items: center;
+  
+}
+
+.profil_box div{
+ display: flex;
+  width: 130px;
+  border-radius: 7px;
+  height: 30px;
+  align-items: center;
+}
+.profil1{
+  background-color: rgba(112, 111, 109, 0.76);
+  }
+  .profil2{
+    background-color: rgba(236, 236, 235, 0.76);
+  }
+  .profil3{
+    background-color: rgba(28, 201, 86, 0.76);
+  }
+
+  .profil4{
+    background-color: rgba(84, 143, 231, 0.76);
+  }
+  .error{
+    display: flex;
+    align-items: center;
+    width: 800px;
+    height: 50px;
+    background-color: red;
+    color: aliceblue;
+  }
+
+ .work{
+background-color: rgb(216, 19, 29);
+border-style: none;
+color: white;
+border-radius: 2px;
+width: 30px;
+height: 20px;
+
+ }
+ .btn_1{
+  background-color: rgb(243, 201, 16);
+  border-style: none;
+  color: white;
+  border-radius: 2px;
+  width: 150px;
+  height: 20px;
+ margin-left: 20px;
+
+ }
